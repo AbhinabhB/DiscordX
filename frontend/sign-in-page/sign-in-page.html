@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login-page.css">
+    <script defer src="login-page.js"></script>
+    <title>Login Page</title>
+</head>
+<body>
+    <div id="login-error-msg-holder">
+        <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+    </div>
+    <div id="login">
+        <h1>Login</h1>
+        <h2>We're excited to see you again</h2>
+        <form id="login-form">
+
+            <label id="email-field-text" class="email-text">Email or Phone Number <span class="required-field">*</span></label>
+            <input type="text" name="email" id="email-field" class="login-form-field">
+
+            <label id="display-name-text" class="display-text">Email or Phone Number <span class="required-field">*</span></label>
+            <input type="text" name="display_name" id="display-name-field" class="login-form-field">
+
+            <label id="user-name-text" class="user-text">Email or Phone Number <span class="required-field">*</span></label>
+            <input type="text" name="user_name" id="user-name-field" class="login-form-field">
+
+            <label id="password-field-text" class="password-text">Password <span class="required-field">*</span></label>
+            <input type="password" name="password" id="password-field" class="login-form-field">
+
+            <input type="submit" value="Continue" id="login-form-submit">
+
+        </form>
+    </div>
+</body>
+</html>
